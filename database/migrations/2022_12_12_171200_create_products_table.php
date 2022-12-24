@@ -18,14 +18,16 @@ return new class extends Migration
             $table->string("name");
             $table->string("note");
             $table->string("sellkarton")->default("0");
-            $table->string("selldarzan12")->default("0");
-            $table->string("selldarzan10")->default("0");
+            $table->string("sellkartonprice")->default("0");
+            $table->string("selldarzan")->default("0");
+            $table->string("selldarzanprice")->default("0");
             $table->string("sellnewdarzan")->default("0");
+            $table->string("sellnewdarzanprice")->default("0");
             $table->string("selldana")->default("0");
+            $table->string("selldanaprice")->default("0");
             
             $table->string("buykarton")->default("0");
-            $table->string("buydarzan12")->default("0");
-            $table->string("buydarzan10")->default("0");
+            $table->string("buydarzan")->default("0");
             $table->string("buynewdarzan")->default("0");
             $table->string("buydana")->default("0");
 
